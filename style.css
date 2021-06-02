@@ -1,0 +1,135 @@
+header .navbar .container .collapse ul li a i {
+  transition: .5s;
+}
+
+header .navbar .container .collapse ul li a i:hover {
+  color: red;
+}
+
+header .navbar .container .collapse ul li:hover ul {
+  transform: translateY(0rem);
+  visibility: visible;
+  opacity: 1;
+}
+
+header .navbar .container .collapse ul li ul {
+  transform: translateY(2rem);
+  visibility: hidden;
+  opacity: 0;
+  display: inline-block;
+  background: #000;
+  transition: .5s;
+}
+
+header .navbar .container .collapse ul li ul li:hover a {
+  color: #000 !important;
+}
+
+.banner_section .bg_banner {
+  background-image: url(./img/restaurant_title_bg.jpg);
+  padding: 3rem 0rem;
+  background-repeat: no-repeat;
+}
+
+.modern_section {
+  background-image: url(./img/restaurant_post_bg.jpg);
+  padding: 3rem 0rem;
+}
+
+.modern_section .container .row .col-lg-6 .inner_div h1 {
+  word-spacing: 0.4rem;
+  letter-spacing: 0.19rem;
+}
+
+.modern_section .container .row .col-lg-6 .inner_div .modan {
+  font-size: 6.5rem;
+  font-weight: lighter;
+}
+
+.black_section {
+  background-image: url(./img/restaurant_post_bg.jpg), linear-gradient(#000000cb, #000000cb);
+  background-blend-mode: multiply;
+  color: white;
+  padding: 6rem 0rem;
+}
+
+.lorem_ipsum_dolor {
+  background-image: url(./img/restaurant_post_bg.jpg);
+}
+
+.lorem_ipsum_dolor .container .row .col-lg-6 .inner_content h1 {
+  font-size: 8rem;
+  font-weight: lighter;
+}
+
+.carousel_section .carousel .carousel-inner .carousel-item .row {
+  background-image: url(./img/restaurant_post_bg.jpg), linear-gradient(#000000cb, #000000cb);
+  background-blend-mode: multiply;
+  color: white;
+  padding: 6rem 0rem;
+}
+
+.why_choose {
+  background-image: url(./img/restaurant_post_bg.jpg), linear-gradient(#000000cb, #000000cb);
+  background-blend-mode: multiply;
+  color: white;
+  padding: 6rem 0rem;
+}
+
+.why_choose .container .row .col-lg-3 .card {
+  background: rgba(0, 0, 0, 0);
+  border-color: white;
+}
+
+.why_choose .container .row .col-lg-3 .card p {
+  margin-bottom: 3rem;
+}
+
+.services {
+  background-image: url(./img/restaurant_service_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
+  background-position: center center;
+}
+
+.services .container .row .col-lg-4 .card {
+  padding-bottom: 1rem;
+  transition: .5s;
+}
+
+.services .container .row .col-lg-4 .card:hover {
+  background: red;
+  cursor: pointer;
+  color: white;
+}
+
+.services .container .row .col-lg-4 .card:hover .image i {
+  color: red;
+  background: white;
+}
+
+.font {
+  font-size: 2rem;
+  display: inline-block;
+  background: red;
+  padding: 1rem;
+  border-radius: 50%;
+  line-height: 1rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.menu_of_our {
+  background-image: url(./img/restaurant_post_bg.jpg), linear-gradient(#000000cb, #000000cb);
+  background-blend-mode: multiply;
+  color: white;
+  padding: 6rem 0rem;
+}
+
+.book_your_table {
+  background-image: url(./img/restaurant_post_bg.jpg), linear-gradient(#000000cb, #000000cb);
+  background-blend-mode: multiply;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
